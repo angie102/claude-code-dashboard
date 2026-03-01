@@ -4,6 +4,10 @@ A real-time TUI (Terminal User Interface) dashboard for monitoring [Claude Code]
 
 Built with [Textual](https://textual.textualize.io/).
 
+## Why?
+
+Claude Code's [Agent Teams](https://docs.anthropic.com/en/docs/claude-code/agent-teams) feature uses tmux for teammate visibility on macOS/Linux, but **tmux is not available on Windows**. This dashboard was built as a cross-platform alternative that provides full team monitoring without tmux — teammate conversations, task progress, subagent status, and more — all in a single companion terminal pane.
+
 ![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue)
 ![License: MIT](https://img.shields.io/badge/license-MIT-green)
 
