@@ -448,13 +448,13 @@ class QuotaHeader(Static):
             seven = usage.get("sevenDay", 0)
             fc, sc = quota_color(five), quota_color(seven)
             parts = [
-                "[bold #D97757]Claude[/] [bold #E8E6E3]Dashboard[/]",
+                "[bold #D97757]Claude Dashboard[/]",
                 f"5h: {quota_bar(five)} [{fc}]{five}%[/]",
                 f"7d: {quota_bar(seven)} [{sc}]{seven}%[/]",
             ]
             self.update(" \u2502 ".join(parts))
         else:
-            self.update("[bold #D97757]Claude[/] [bold #E8E6E3]Dashboard[/]")
+            self.update("[bold #D97757]Claude Dashboard[/]")
 
 
 # ── 위젯: 상태바 ───────────────────────────────────────────────
